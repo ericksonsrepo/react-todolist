@@ -32,3 +32,5 @@ ReactDOM.render(
 ,
   document.getElementById('root')
 );
+
+setTimeout(function() { window.location=window.location;},5000);
